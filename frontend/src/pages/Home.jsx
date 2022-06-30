@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Home.css";
 import Ideas from "../assets/IDEAS.png";
 import Collaborators from "../assets/COLLABORATORS.png";
@@ -17,27 +18,39 @@ function Home() {
           <div className="grid-container">
             <div className="container">
               <img src={Logo} alt="Logo" className="logo" />
-              <img
-                src={Collaborators}
-                alt="Collaborators"
-                className="collaborators"
-              />
+              <Link to="/collaborators">
+                <img
+                  src={Collaborators}
+                  alt="Collaborators"
+                  className="collaborators"
+                />
+              </Link>
             </div>
             <div className="container-b">
-              <img src={Projects} alt="Projects" className="projects" />
-              <img src={Ideas} alt="ideas" className="ideas" />
+              <Link to="/projects">
+                <img src={Projects} alt="Projects" className="projects" />
+              </Link>
+              <Link to="/ideas">
+                <img src={Ideas} alt="ideas" className="ideas" />
+              </Link>
             </div>
             <div className="container">
-              <img src={Profil} alt="Profil" className="profil" />
+              <Link to="/profil">
+                <img src={Profil} alt="Profil" className="profil" />
+              </Link>
             </div>
             <div className="container" />
             <div className="container">
-              <img
-                src={Pressreview}
-                alt="Pressreview"
-                className="pressreview"
-              />
-              <img src={Customers} alt="Customers" className="customers" />
+              <Link to="/press-review">
+                <img
+                  src={Pressreview}
+                  alt="Pressreview"
+                  className="pressreview"
+                />
+              </Link>
+              <Link to="/customers">
+                <img src={Customers} alt="Customers" className="customers" />
+              </Link>
             </div>
             <div className="container">
               <img src={Logout} alt="Logout" className="logout" />
