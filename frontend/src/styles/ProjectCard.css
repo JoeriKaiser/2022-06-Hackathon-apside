@@ -8,6 +8,18 @@
   margin: 1rem;
 }
 
+#finished {
+  border-bottom: 5px solid rgb(156, 93, 45);
+}
+
+#ongoing {
+  border-bottom: 5px solid rgb(96, 67, 232);
+}
+
+#tostart {
+  border-bottom: 5px solid rgb(115, 232, 114);
+}
+
 .project-card-link {
   text-decoration: none;
   color: inherit;
