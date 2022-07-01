@@ -79,7 +79,7 @@ function PressReview() {
     <div className="press-review-container">
       <SpeedDial />
       <div className="container2">
-        <h1>All articles</h1>
+        <h1>Press Review</h1>
         <div className="filter-container">Filter...</div>
       </div>
 
