@@ -75,7 +75,7 @@ function ArrayCustomers() {
             <TableCell
               sx={{ width: 0, fontSize: 18, fontWeight: 700, color: "#616161" }}
             >
-              Collaborators
+              Customers
             </TableCell>
             <TableCell sx={{ width: 200 }} />
             <TableCell
