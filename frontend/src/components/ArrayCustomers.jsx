@@ -51,10 +51,10 @@ const rows = [
   createData({
     id: 4,
     picture: Champion,
-    name: "Jean",
-    jointprojects: "Aeronautics",
+    name: "Champion",
+    jointprojects: "Textile",
     agency: "Toulouse",
-    contact: "thegosselin@apside.com",
+    contact: "champion@contact.com",
   }),
   createData({
     id: 5,
@@ -62,7 +62,7 @@ const rows = [
     name: "Epson",
     jointprojects: "Electronic",
     agency: "Toulouse",
-    contact: "thegosselin@apside.com",
+    contact: "epson@contact.com",
   }),
 ];
 
