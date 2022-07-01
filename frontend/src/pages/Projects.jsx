@@ -26,7 +26,7 @@ const projects = [
         name: "#GraphQL",
       },
     ],
-    status: "finished",
+    status: "tostart",
     link: "/project",
   },
   {
@@ -48,7 +48,7 @@ const projects = [
         name: "...more",
       },
     ],
-    status: "finished",
+    status: "ongoing",
     link: "/project",
   },
   {
@@ -89,7 +89,7 @@ const projects = [
         name: "...more",
       },
     ],
-    status: "finished",
+    status: "tostart",
     link: "/project",
   },
 ];

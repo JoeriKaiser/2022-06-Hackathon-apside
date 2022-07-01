@@ -3,10 +3,17 @@ import "../styles/ProjectCard.css";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { Link } from "react-router-dom";
 
-function ProjectCard({ title, description, image, technologies, link }) {
+function ProjectCard({
+  title,
+  description,
+  image,
+  technologies,
+  link,
+  status,
+}) {
   return (
     <Link className="project-card-link" to={link}>
-      <div className="project-container">
+      <div className="project-container" id={status}>
         <img src={image} alt="placeholder" />
         <div className="project-text-container">
           <h2>{title}</h2>
