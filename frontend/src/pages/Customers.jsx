@@ -13,7 +13,7 @@ function Customers() {
       </header>
       <div className="table">
         <TextField
-          placeholder="Jean Dupont
+          placeholder="Airbus
           "
           sx={{ align: "center", width: 1200, padding: 5 }}
         />
