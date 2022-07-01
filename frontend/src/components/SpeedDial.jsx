@@ -15,10 +15,9 @@ function SpeedDialComp() {
   const actions = [
     { icon: <CottageIcon />, name: "DASHBOARD", navigate: "/" },
     { icon: <GroupIcon />, name: "COLLABORATORS", navigate: "/collaborators" },
-    { icon: <LightbulbIcon />, name: "IDEAS", navigate: "/ideas" },
-    { icon: <PsychologyIcon />, name: "PROJECTS", navigate: "/projects" },
-
     { icon: <WorkIcon />, name: "CUSTOMERS", navigate: "/customers" },
+    { icon: <PsychologyIcon />, name: "PROJECTS", navigate: "/projects" },
+    { icon: <LightbulbIcon />, name: "IDEAS", navigate: "/ideas" },
     {
       icon: <NewspaperIcon />,
       name: "PRESS REVIEW",
